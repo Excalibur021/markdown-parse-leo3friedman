@@ -26,7 +26,8 @@ public class MarkdownParseTest {
         fileMap.put("test-file4.md", new ArrayList<String>(Arrays.asList()));
         fileMap.put("snippet-1.md", new ArrayList<String>(Arrays.asList("`google.com", "google.com","ucsd.edu")));
         fileMap.put("snippet-2.md", new ArrayList<String>(Arrays.asList("a.com", "a.com(())", "example.com"))); 
-        fileMap.put("snippet-3.md", new ArrayList<String>(Arrays.asList("https://ucsd-cse15l-w22.github.io/"))); 
+        fileMap.put("snippet-3.md", new ArrayList<String>(Arrays.asList("https://twitter.com", 
+        "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"))); 
     }
 
     @Test
